@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
-  <title>解憂占卜布告欄</title>
+  <title>無關氣候的解憂占卜</title>
   <style>
     body {
       font-family: "Helvetica", sans-serif;
@@ -45,7 +45,7 @@
       const userInput = document.getElementById("input").value;
       const responseBox = document.getElementById("response");
       responseBox.textContent = "⏳ 請稍候...";
-      const prefix = "你是一個占卜師，以下是我喜歡的事物，請依照我寫的內容，用一個占卜師的語氣，告訴我的代表動物以及我的人格特質，如何趨吉避凶：\n";
+      const prefix = "你是一個占卜師，以下是我喜歡的事物，請依照我寫的內容，用一個占卜師的語氣，告訴我的代表動物以及我的人格特質，如何趨吉避凶，並從 https://tccip.ncdr.nat.gov.tw/km_newsletter.aspx 推薦一篇電子報：\n";
 
       try {
         const res = await fetch("https://proxy.tedliu13.cc/chat", {
